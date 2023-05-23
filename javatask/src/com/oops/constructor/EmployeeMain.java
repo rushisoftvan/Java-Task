@@ -1,4 +1,4 @@
-package com.oops.constructer;
+package com.oops.constructor;
 
 /*
 constructer use for initialize the object 
