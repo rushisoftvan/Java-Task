@@ -17,6 +17,7 @@ public class FileInputStreamDemo {
 			String line;
 			while((line=bufferedReader.readLine())!=null) {
 				System.out.println(line);
+				//System.out.println
 			}
 			
 		} catch (FileNotFoundException e) {
