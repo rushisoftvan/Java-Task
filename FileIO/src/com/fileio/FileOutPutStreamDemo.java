@@ -21,6 +21,7 @@ public class FileOutPutStreamDemo {
 			FileOutputStream fileOutputStream = new FileOutputStream(file,true);
 			fileOutputStream.write(studentInByte);
 			fileOutputStream.write(10);
+			//fileOutputStream.write(10);
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

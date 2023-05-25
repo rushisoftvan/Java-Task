@@ -19,7 +19,7 @@ public class ExampleOfFileWriter {
 		try( FileWriter fileWriter = new FileWriter("rushi.txt",true)){
 			fileWriter.write(sentence);
 			 fileWriter.write("\n");
-			 
+			 //System.out.println();
 		}
 		
 		catch(IOException e){
